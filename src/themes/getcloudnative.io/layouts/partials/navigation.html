@@ -1,0 +1,25 @@
+<nav class="nav">
+  <div class="brand">
+    <img class="brand__logo" src="/gcn-icon.png" >
+    <span class="brand__title">GetCloudnative</span>
+  </div>
+  <ul class="nav__main">
+    {{ range .Site.Menus.main }}
+    <li class="nav__item nav__item--main">
+      <a href="{{ .URL }}" class="nav__link nav__link--main" >
+        {{ .Name }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+
+  <ul class="nav__social">
+  {{ range .Site.Menus.socials }}
+    <li class="nav__item nav__item--social">
+      <a href="{{ .URL }}" class="nav__link nav__link--social" >
+        {{ .Name }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>
