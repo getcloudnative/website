@@ -1,0 +1,44 @@
+baseURL = "https://getcloudnative.io/"
+languageCode = "en-us"
+title = "GetCloudnative"
+theme = "getcloudnative.io"
+
+[menu]
+  [[menu.main]]
+    identifier = "about us"
+    name = "About Us"
+    url = "/about-us/"
+  
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projecs/"
+
+  [[menu.socials]]
+    identifier = "github"
+    name = "Github"
+    pre = "<i class='fa fa-github'></i>"
+    url = "https://github.com/getcloudnative"
+
+  [[menu.socials]]
+    identifier = "linkedin"
+    name = "Linked in"
+    pre = "<i class='fa fa-linkedin'></i>"
+    url = ""
+  
+  [[menu.socials]]
+    identifier = "slideshare"
+    name = "Slideshare"
+    pre = "<i class='fa fa-slideshare'></i>"
+    url = ""
+  
+  [[menu.socials]]
+    identifier = "twitter"
+    name = "Twitter"
+    pre = "<i class='fa fa-twitter'></i>"
+    url = ""
