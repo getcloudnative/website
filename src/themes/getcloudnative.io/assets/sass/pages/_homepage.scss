@@ -1,0 +1,25 @@
+.homepage__hero {
+  background-color: $primary;
+  color: #fff;
+  border-radius: 0;
+}
+
+
+.homepage__hero .quote {  
+  margin-top: 2.5rem;
+  
+  p,
+  .lead {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  hr {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  p.lead {
+    font-style: italic;
+    padding-bottom: 2rem;
+  }
+}

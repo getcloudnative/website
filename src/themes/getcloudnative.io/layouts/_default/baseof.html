@@ -5,10 +5,11 @@
 {{ end }}
 <body>
   {{ partial "navigation.html" . }}
-  <div class="content container">
+  <main class="main">
     {{ block "content" . }}
+    {{ .Content }}
     {{ end }}
-  </div>
+  </main>
   {{ block "footer" . }}
   {{ end }}
   {{ partial "scripts.html" . }}
