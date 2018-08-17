@@ -5,6 +5,9 @@
 
 .section-bg-secondary {
   background-color: $secondary;
+}
+
+.section-bg-secondary * {
   color: #fff;
 }
 

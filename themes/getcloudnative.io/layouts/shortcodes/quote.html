@@ -1,7 +1,14 @@
 <blockquote class="quote">
-  <p class="lead">“{{ .Inner }}”</p>
+  {{if isset .Params "logo" }}
+  <img src="{{ .Params.logo }}" alt="" class="quote__logo mb-3">
+  {{end}}
+
+  <p class="quote__text lead">“{{ .Inner }}”</p>
   <hr>
+  {{if isset .Params "image" }}
+  <img src="{{ .Params.image }}" alt="{{ .Params.quotee }} image" class="mt-3 quote__image">
+  {{end}}
   <p>
-    <small>{{ .Params.quotee }}</small>
+    <span class="quote__quotee">{{ .Params.quotee }}</span>{{ if isset .Params "position" }}<span class="quote__quoteeposition">{{ .Params.position }}</span> {{ end }}
   </p>
 </blockquote>

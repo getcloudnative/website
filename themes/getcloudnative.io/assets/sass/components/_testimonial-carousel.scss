@@ -1,0 +1,39 @@
+.testimonialcarousel {
+
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  .quote__text {
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    color: $textcolorlight;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .quote__quotee {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: $textcolor;
+  }
+
+  .quote__quoteeposition {
+    font-size: 0.8rem;
+  }
+
+  .quote__image {
+    border-radius: 50%;
+    max-width: 5rem;
+  }
+
+  .quote__quotee + .quote__quoteeposition::before {
+    content: "";
+  }
+}
