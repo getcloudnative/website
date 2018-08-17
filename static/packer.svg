@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="130px" viewBox="0 0 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>packer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="packer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="logo" transform="translate(41.000000, 25.000000)" fill="#000000" fill-rule="nonzero">
+            <polyline id="Shape" points="0.0681481481 10.0444444 25.8755556 24.8 25.8755556 79.1955556 0.0681481481 64.442963"></polyline>
+            <path d="M38.6518519,16.402963 L10.6,0.417777778 L10.6,11.5185185 L29.6755556,22.4162963 L29.6755556,55.7274074 L38.6533333,60.8281481 C44.2088889,63.9985185 48.757037,62.0992593 48.757037,56.6059259 L48.757037,32.162963 C48.757037,26.6666667 44.2088889,19.5748148 38.6533333,16.402963" id="Shape"></path>
+        </g>
+    </g>
+</svg>
