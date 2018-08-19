@@ -1,0 +1,53 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-2 offset-md-2">
+        <img class="footer__logo" src="/gcn-icon.svg" alt="">
+      </div>
+
+      <div class="col col-md-2">
+        <h5 class="h5">Company</h5>
+        <ul class="footernav">
+        {{ range .Site.Menus.main }}
+          <li class="footernav__item">
+            <a class="footernav__link" href="{{ .URL }}">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+
+      <div class="col col-md-2">
+        <h5 class="h5">Community</h5>
+        <ul class="footernav">
+        {{ range .Site.Menus.socials }}
+          <li class="footernav__item">
+            <a class="footernav__link" href="{{ .URL }}">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+
+      <div class="col col-md-2">
+        <h5 class="h5">Legal</h5>
+        <ul class="footernav">
+        {{ range .Site.Menus.legal }}
+          <li class="footernav__item">
+            <a class="footernav__link" href="{{ .URL }}">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="text-center legal-copyright mt-3">
+      &copy; GetCloudnative e.U. All rights reserved. Steingasse 6A, 4020 Linz, Austria
+    </p>
+  </div>
+</footer>
