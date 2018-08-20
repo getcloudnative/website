@@ -174,7 +174,17 @@ body {
   color: #fff;
   border-radius: 0;
   background-image: url("/hero-background.svg");
+  background-size: cover;
 }
+
+@media (min-width: 992px) {
+  
+  .homepage__hero {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
 .homepage__hero .quote {
   margin-top: 2.5rem;
 }
