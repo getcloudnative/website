@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
   <a class="navbar-brand" href="/">
     <img src="/gcn-icon.svg" width="30" height="30" class="d-inline-block align-top" alt="getcloudnative.io logo">
     GetCloudnative
@@ -7,23 +7,30 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-    <ul class="navbar-nav">
-      {{ range .Site.Menus.main }}
-      <li class="nav-item">
-        <a class="nav-link" href="{{ .URL }}">
-          {{ .Name }}
-        </a>
-      </li>
-      {{ end }}
-      {{ range .Site.Menus.socials }}
-      <li class="nav-item">
-        <a class="nav-link" href="{{ .URL }}" title="{{ .Name }}">
-          {{ .Pre }}
-        </a>
-      </li>
-      {{ end }}
-    </ul>
+  <div class="container nav__double__container">
+    <div class="row w-100">
+      <div class="nav-col col col-md-6 offset-md-6">
+        <div class="nav__double__collapse collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            {{ range .Site.Menus.main }}
+            <li class="nav-item nav-item--main">
+              <a class="nav-link" href="{{ .URL }}">
+                {{ .Name }}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+          <ul class="navbar-nav">
+            {{ range .Site.Menus.socials }}
+            <li class="nav-item nav-item--socials">
+              <a class="nav-link" href="{{ .URL }}" title="{{ .Name }}">
+                {{ .Pre }}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </nav>

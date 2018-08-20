@@ -61,6 +61,38 @@ body {
   fill: currentColor;
 }
 
+.nav-item {
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    position: absolute;
+  }
+  
+  .nav__double__container {
+    padding-right: 0;
+  }
+
+  .nav__double__collapse {
+    justify-content: space-between;
+  }
+
+  .nav-col {
+    padding-left: 5px;
+  }
+}
+@media (min-width: 992px) {
+  .nav-item--main {
+    padding-right: 2rem;
+  }
+
+  .nav-item--socials {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
 /**
 * Section
 */
