@@ -1,6 +1,6 @@
 baseURL = "https://getcloudnative.io/"
 languageCode = "en-us"
-title = "GetCloudnative | Embrace your digital life."
+title = "GCn - GetCloudnative"
 
 [menu]
   [[menu.main]]
