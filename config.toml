@@ -1,6 +1,6 @@
 baseURL = "https://getcloudnative.io/"
 languageCode = "en-us"
-title = "GetCloudnative"
+title = "GCn - GetCloudnative"
 
 [menu]
   [[menu.main]]
@@ -51,3 +51,7 @@ title = "GetCloudnative"
     identifier = "Privacy"
     name = "Privacy"
     url = ""
+
+[params]
+  description = "At GetCloudnative, we personally support our clients in building better processes, products, and services by making effective and efficient use of modern, cloud-native technology. We're Strategists, hands-on Executors, and Enablers of Teams. Are you ready to kick-start innovation and walk the talk together?"
+  keywords = "Strategy, Architecture, Execution, Enablement, Agile Coaching, Continuous Delivery, DevOps, Cloud, Containers, Serverless, Amazon Web Services, AWS, Ansible, Azure, Docker, Jenkins, Kubernetes, OpenShift, Packer, Terraform"
