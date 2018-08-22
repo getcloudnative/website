@@ -1,7 +1,3 @@
 # Redirect Netlify's getcloudnative subdomain to primary domain
-# http://getcloudnative.netlify.com/* http://getcloudnative.io/:splat 301!
-# https://getcloudnative.netlify.com/* https://getcloudnative.io/:splat 301!
-
-# Redirect www subdomain to primary domain
-# http://www.getcloudnative.io/* http://getcloudnative.io/:splat 301!
-# https://www.getcloudnative.io/* https://getcloudnative.io/:splat 301!
+http://getcloudnative.netlify.com/* http://getcloudnative.io/:splat 301!
+https://getcloudnative.netlify.com/* https://getcloudnative.io/:splat 301!
