@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="130px" height="130px" viewBox="0 0 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>terraform</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="terraform" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
-        <g id="logo" transform="translate(29.000000, 25.000000)" fill="#000000" fill-rule="nonzero">
-            <path d="M24.2634284,13.8636244 L47.1788744,26.9570114 L47.1788744,52.6771428 L24.2634284,39.58372 L24.2634284,13.8636244 Z M48.3950642,52.5617158 L71.1111111,39.5072689 L71.1111111,13.9534109 L48.3950642,26.9181095 L48.3950642,52.5617158 Z M0,25.7200956 L22.9154438,38.8135208 L22.9154438,13.0934227 L0,0 L0,25.7200956 Z M24.2634284,66.8167914 L47.1788744,79.9102142 L47.1788744,54.100295 L24.2634284,41.0069056 L24.2634284,66.8167914 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>
+<svg width="130" height="130" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg"><title>terraform</title><path d="M53.263 38.864L76.18 51.957v25.72L53.262 64.584v-25.72zm24.132 38.698l22.716-13.055V38.953L77.396 51.918v25.644zM29 50.72l22.915 13.094v-25.72L29 25v25.72zm24.263 41.097L76.18 104.91V79.1L53.262 66.007v25.81z" fill="#7F7F7F" fill-rule="evenodd"/></svg>

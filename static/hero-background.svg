@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1440px" height="700px" viewBox="0 0 1440 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval-2" fill-opacity="0.13" fill="#FFFFFF" cx="1091.5" cy="589.5" r="797.5"></circle>
-        <circle id="Oval-2" fill-opacity="0.18" fill="#FFFFFF" cx="55" cy="1005" r="780"></circle>
-    </g>
-</svg>
+<svg width="1440" height="700" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg"><title>Artboard</title><g fill="#FFF" fill-rule="evenodd"><circle fill-opacity=".13" cx="1091.5" cy="589.5" r="797.5"/><circle fill-opacity=".18" cx="55" cy="1005" r="780"/></g></svg>
