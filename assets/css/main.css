@@ -169,6 +169,7 @@ body {
 .testimonialcarousel .quote__text {
   font-size: 1rem;
   font-weight: 500;
+  line-height: 1.8;
   font-style: italic;
   color: #86939E;
 }
