@@ -129,6 +129,8 @@ body {
   background-color: #43484D;
   padding-right: 4rem;
   padding-left: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   border-color: #43484D;
 }
 .btn-primary:hover,
