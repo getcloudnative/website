@@ -61,6 +61,18 @@ body {
   fill: currentColor;
 }
 
+.navbar-brand {
+  font-size: 1rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+.navbar-brand img {
+  margin-right: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 .nav-item {
   white-space: nowrap;
 }
@@ -117,6 +129,8 @@ body {
   background-color: #43484D;
   padding-right: 4rem;
   padding-left: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   border-color: #43484D;
 }
 .btn-primary:hover,
@@ -155,6 +169,7 @@ body {
 .testimonialcarousel .quote__text {
   font-size: 1rem;
   font-weight: 500;
+  line-height: 1.8;
   font-style: italic;
   color: #86939E;
 }
@@ -188,6 +203,11 @@ body {
   padding-bottom: 4rem;
   color: #fff;
 }
+
+.footernav__item {
+  margin-top: 0.5rem;
+}
+
 .footernav__link,
 .legal-copyright {
   color: #BABEC3;
