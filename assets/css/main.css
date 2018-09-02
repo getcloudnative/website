@@ -61,24 +61,30 @@ body {
   font-size: 1.35rem;
 }
 
+
 /**
 * Nav
 */
+
+.navbar {
+  height: 5.25rem;
+}
 
 .nav-link svg * {
   fill: currentColor;
 }
 
 .navbar-brand {
-  font-size: 1rem;
-  line-height: 2.5rem;
+  font-size: 1.4rem;
+  line-height: 3.5rem;
   font-weight: 400;
+  margin-left: 1rem;
 }
 
 .navbar-brand img {
-  margin-right: 0.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
+  margin-right: 1.3rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .nav-item {
@@ -135,9 +141,9 @@ body {
 }
 
 .display-4 {
-  font-size: 52px;
+  font-size: 3rem;
   font-weight: 400;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   margin-bottom: 1rem;
 }
 
@@ -276,8 +282,8 @@ body {
 @media (min-width: 992px) {
   
   .homepage__hero {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
   }
 }
 
