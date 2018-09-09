@@ -53,5 +53,5 @@ title = "GCn - GetCloudnative"
     url = ""
 
 [params]
-  description = "At GetCloudnative, we personally support our clients in building better processes, products, and services by making effective and efficient use of modern, cloud-native technology. We're Strategists, hands-on Executors, and Enablers of Teams. Are you ready to kick-start innovation and walk the talk together?"
-  keywords = "Strategy, Architecture, Execution, Enablement, Agile Coaching, Continuous Delivery, DevOps, Cloud, Containers, Serverless, Amazon Web Services, AWS, Ansible, Azure, Docker, Jenkins, Kubernetes, OpenShift, Packer, Terraform"
+  description = "At GetCloudnative, we personally help our clients in bringing new and better products and services to the market quicker, by combining modern, cloud-native technology with Agile and Lean thinking and acting. We're Strategists, hands-on Executors, and Enablers of Teams. Ready to kick-start innovation and walk the talk together?"
+  keywords = "Strategy, Architecture, Execution, Enablement, Agile, Lean, Agile Coaching, Continuous Delivery, DevOps, Cloud, Containers, Serverless, Amazon Web Services, AWS, Ansible, Azure, Docker, Jenkins, Kubernetes, OpenShift, Packer, Terraform"
