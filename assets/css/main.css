@@ -244,6 +244,42 @@ body {
   content: "";
 }
 
+.carousel-indicators {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-indicators li {
+  width: auto;
+  height: auto;
+  text-indent: 0;
+  background-color: transparent;
+  max-width: 8rem;
+  margin-left: 1.5rem; 
+  margin-right: 1.5rem;
+}
+
+.carousel-indicators li:after,
+.carousel-indicators li:before {
+  display: none;
+  height: 2px;
+  bottom: 0;
+}
+
+.carousel-indicators img {
+  max-width: 100%;
+}
+
+.carousel-indicators li.active {
+  background-color: transparent;
+}
+
+.carousel-indicators li.active:after {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 /**
 * Footer
 */
