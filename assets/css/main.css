@@ -269,16 +269,18 @@ body {
 
 .carousel-indicators img {
   max-width: 100%;
+  opacity: 0.35;
+}
+
+.carousel-indicators li.active img {
+  opacity: 0.5;
 }
 
 .carousel-indicators li.active {
   background-color: transparent;
 }
 
-.carousel-indicators li.active:after {
-  display: block;
-  background-color: rgba(0, 0, 0, 0.2);
-}
+
 
 /**
 * Footer
