@@ -45,7 +45,7 @@ title = "GCn - GetCloudnative"
   [[menu.legal]]
     identifier = "Imprint"
     name = "Imprint"
-    url = ""
+    url = "/imprint/"
 
   [[menu.privacy]]
     identifier = "Privacy"
