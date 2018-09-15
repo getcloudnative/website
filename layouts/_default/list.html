@@ -1,0 +1,36 @@
+{{ define "content" }}
+<div class="jumbotron homepage__hero">
+  <div class="container">
+    <h1 class="h1">{{ .Title }}</h1>
+  </div>
+</div>
+
+<main>
+  {{if .Content}}
+  <div class="section">
+    <div class="container">
+      {{.Content}}
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="section">
+    <div class="container">
+
+      {{if .Pages }}
+        <ul>
+          <!-- Ranges through content/{taxonomy}/*.md -->
+          {{ range .Pages }}
+          <li>
+            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+          </li>
+          {{ end }}
+        </ul>
+      {{ else }}
+      <p>{{ .Params.emptyText }}</p>
+      {{ end }}
+    </div>
+  </div>
+  
+</main>
+{{ end }}
