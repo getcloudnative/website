@@ -75,20 +75,42 @@ body {
 }
 
 .navbar-brand {
-  font-size: 1.4rem;
-  line-height: 3.5rem;
+  font-size: 1rem;
+  line-height: 2.5rem;
   font-weight: 400;
   margin-left: 1rem;
 }
 
 .navbar-brand img {
   margin-right: 1.3rem;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .nav-item {
   white-space: nowrap;
+}
+
+.nav__double__container {
+  background-color: #f8f9fa;
+  position: relative;
+  z-index: 5;
+}
+
+.navbar-nav {
+  padding-left: 1rem;
+}
+
+@media (min-width: 460px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+  }
+  
+  .navbar-brand img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -98,6 +120,11 @@ body {
   
   .nav__double__container {
     padding-right: 0;
+    background-color: transparent;
+  }
+
+  .navbar-nav {
+    padding-left: 0;
   }
 
   .nav__double__collapse {
@@ -108,6 +135,7 @@ body {
     padding-left: 15px;
   }
 }
+
 @media (min-width: 992px) {
   .nav-item--main {
     padding-right: 2rem;
@@ -318,6 +346,13 @@ body {
   .homepage__hero {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
+  }
+}
+
+@media (max-width: 460px) {
+  
+  .homepage__hero .h1 {
+    font-size: 36px;
   }
 }
 
