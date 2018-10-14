@@ -1,5 +1,22 @@
-<article>
-  <div class="post">
-    {{ .Content }}
+
+<div class="jumbotron homepage__hero">
+  <div class="container">
+    <h1 class="h1">{{ .Title }}</h1>
+  </div>
+</div>
+
+
+<article class="section">
+  <div class="container">
+    <div class="post">
+      {{ $newContent := .Content }}
+      {{ $newContent := replaceRE "<h1" "<h1 class='h1' " $newContent}}
+      {{ $newContent := replaceRE "<h2" "<h2 class='h2' " $newContent}}
+      {{ $newContent := replaceRE "<h3" "<h3 class='h3' " $newContent}}
+      {{ $newContent := replaceRE "<h4" "<h4 class='h4' " $newContent}}
+      {{ $newContent := replaceRE "<h5" "<h5 class='h5' " $newContent}}
+      {{ $newContent := replaceRE "<h6" "<h6 class='h6' " $newContent}}
+      {{ $newContent | safeHTML}}
+    </div>
   </div>
 </article>
