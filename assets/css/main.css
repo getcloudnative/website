@@ -370,11 +370,16 @@ body {
   background-position: center;
   background-size: cover;
   border-radius: 0;
+  margin: 0;
+}
+
+.about--wrapper {
+  background-color: #F4F4F4;
 }
 
 .section--about {
+  transform: translateY(-4rem);
   background-color: #fff;
-  margin-top: -4rem;
   border-radius: 5px;
   padding-top: 0;
   padding-left: 2rem;
