@@ -91,6 +91,11 @@ body {
   white-space: nowrap;
 }
 
+.nav-col {
+  background: #f8f9fa;
+  z-index: 999;
+}
+
 @media (min-width: 768px) {
   .navbar-brand {
     position: absolute;
@@ -281,7 +286,6 @@ body {
 }
 
 
-
 /**
 * Footer
 */
@@ -423,6 +427,10 @@ body {
   margin-right: 1rem;
 }
 
+.social__list__image {
+  min-width: 20px;
+}
+
 @media (min-width: 768px) {
 
   .social__list {
@@ -438,6 +446,11 @@ body {
   .social__list__item + .social__list__item {
     margin-top: 0.8rem;
   }
+
+
+  .social__list__image {
+    min-width: 25px;
+  }
 } 
 
 
@@ -450,9 +463,6 @@ body {
   opacity: 0.5;
 }
 
-.social__list__image {
-  min-width: 25px;
-}
 
 
 /**
