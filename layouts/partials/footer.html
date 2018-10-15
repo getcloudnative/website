@@ -1,13 +1,9 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-2 offset-md-2">
-        <img class="footer__logo" src="/gcn-icon.svg" alt="">
-      </div>
-
-      <div class="col col-md-2">
-        <h5 class="h5">Company</h5>
-        <ul class="footernav">
+      <div class="col col-md-2 offset-md-3">
+        <h5 class="h5 text-center">Company</h5>
+        <ul class="footernav text-center">
         {{ range .Site.Menus.main }}
           <li class="footernav__item">
             <a class="footernav__link" href="{{ .URL }}">
@@ -19,8 +15,8 @@
       </div>
 
       <div class="col col-md-2">
-        <h5 class="h5">Community</h5>
-        <ul class="footernav">
+        <h5 class="h5 text-center">Community</h5>
+        <ul class="footernav text-center">
         {{ range .Site.Menus.socials }}
           <li class="footernav__item">
             <a class="footernav__link" href="{{ .URL }}">
@@ -32,8 +28,8 @@
       </div>
 
       <div class="col col-md-2">
-        <h5 class="h5">Legal</h5>
-        <ul class="footernav">
+        <h5 class="h5 text-center">Legal</h5>
+        <ul class="footernav text-center">
         {{ range .Site.Menus.legal }}
           <li class="footernav__item">
             <a class="footernav__link" href="{{ .URL }}">
