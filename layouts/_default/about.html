@@ -62,25 +62,26 @@
   
         <hr class="about__person__separator" />
   
-        <div class="container">
+        <div class="container about__post__container">
           <div class="post">
             {{ .Content }}
           </div>
-        </div>
-  
-        {{ if isset .Params "tags" }}
-        <div class="about__tags">
-          {{ range .Params.tags }}
-            <span class="tag" data-tag="{{ . | lower | singularize }}">{{ . }}</span>
+          
+          {{ if isset .Params "tags" }}
+          <div class="about__tags">
+            {{ range .Params.tags }}
+              <span class="tag" data-tag="{{ . | lower | singularize }}">{{ . }}</span>
+            {{ end }}
+          </div>
           {{ end }}
         </div>
-        {{ end }}
+  
       </div>
     </div>
   </div>
 </div>
 
-<div class="section testimonials" style="padding-top: 5.5rem; padding-bottom: 5rem">
+<div class="section testimonials" style="padding-top: 2.5rem; padding-bottom: 5rem">
   <div class="container">
     <h2 class="display-4 text-center">What People Say</h2>
     <p class="text-center lead" style="margin-bottom: 4rem">
