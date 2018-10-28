@@ -520,30 +520,22 @@ body {
   vertical-align: middle;
   color: rgba(255, 255, 255, 0.8);
   white-space: nowrap;
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
+  margin-right: 0.6rem;
+  margin-bottom: 0.8rem;
   font-size: 0.8em;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
 }
 
-.tag:first-child {
-  margin-left: 0;
-}
-
-.tag:last-child {
-  margin-right: 0;
-}
-
-.tag[data-tag="technology"] {
+.tag.blue {
   background-color: #3994F0;
 }
 
-.tag[data-tag="art"] {
+.tag.purple {
   background-color: #C6A7FA;
 }
 
-.tag[data-tag="bird"] {
+.tag.orange {
   background-color: #F6C86C;
 }
 

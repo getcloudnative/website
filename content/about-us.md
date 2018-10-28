@@ -10,10 +10,25 @@ person:
   slideshare: "https://www.slideshare.net/martinetmajer"
   speakerdeck: "https://speakerdeck.com/getcloudnative"
   linkedin: "https://www.linkedin.com/in/metmajer/"
-tags:
-  - Technology
-  - Arts
-  - Birds
+labels:
+  - value: "Technology Strategist"
+    color: "purple"
+  - value: "Architect"
+    color: "purple"
+  - value: "Enabler of Teams"
+    color: "purple"
+  - value: "Author"
+    color: "purple"
+  - value: "Speaker"
+    color: "purple"
+  - value: "Continuous Deployment"
+    color: "blue"
+  - value: "Cloud Computing"
+    color: "blue"
+  - value: "DevOps"
+    color: "blue"
+  - value: "Serverless"
+    color: "blue"
 ---
 
 Hello, I’m Martin.

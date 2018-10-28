@@ -67,10 +67,10 @@
             {{ .Content }}
           </div>
           
-          {{ if isset .Params "tags" }}
+          {{ if isset .Params "labels" }}
           <div class="about__tags">
-            {{ range .Params.tags }}
-              <span class="tag" data-tag="{{ . | lower | singularize }}">{{ . }}</span>
+            {{ range .Params.labels }}
+              <span class="tag {{ .color }}">{{ .value }}</span>
             {{ end }}
           </div>
           {{ end }}
