@@ -5,11 +5,11 @@ person:
   name: "Martin Etmajer"
   position: "Founder and Principal Consultant"
   photo: "/martin-etmajer.jpg"
-  github: ""
-  twitter: ""
-  slideshare: ""
-  speakerdeck: ""
-  linkedin: ""
+  github: "https://github.com/metmajer"
+  twitter: "https://twitter.com/metmajer"
+  slideshare: "https://www.slideshare.net/martinetmajer"
+  speakerdeck: "https://speakerdeck.com/getcloudnative"
+  linkedin: "https://www.linkedin.com/in/metmajer/"
 tags:
   - Technology
   - Arts
