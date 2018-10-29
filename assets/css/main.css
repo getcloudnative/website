@@ -505,14 +505,14 @@ body {
 
 
 /**
- * tags
+ * labels
  */
  
-.about__tags {
+.about__labels {
   margin-top: 3rem;
 }
 
-.tag {
+.label {
   border-radius: 15px;
   display: inline-block;
   height: 30px;
@@ -527,15 +527,15 @@ body {
   padding-right: 0.8rem;
 }
 
-.tag.blue {
+.label.blue {
   background-color: #3994F0;
 }
 
-.tag.purple {
+.label.purple {
   background-color: #C6A7FA;
 }
 
-.tag.orange {
+.label.orange {
   background-color: #F6C86C;
 }
 
