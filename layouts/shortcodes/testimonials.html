@@ -3,7 +3,7 @@
   <ol class="carousel-indicators mb-3">
     {{ range $index, $e := .Site.Params.testimonials }}
       <li data-target="#testimonials" data-slide-to="{{ $index }}" class="{{ if (eq $index 0) }}active{{end}}" >
-        <img src="{{ .logo }}" >
+        <img src="{{ .logo }}" alt="{{ .company }} Logo">
       </li>
     {{end}}
   </ol>

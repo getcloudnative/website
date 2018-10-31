@@ -1,6 +1,6 @@
 ---
 layout: "about"
-headerimage: "/about-hero.jpg"
+headerimage: "/about-us-hero-background.jpg"
 person: 
   name: "Martin Etmajer"
   position: "Founder and Principal Consultant"

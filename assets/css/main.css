@@ -362,7 +362,7 @@ body {
   background-color: #1C67C0;
   color: #fff;
   border-radius: 0;
-  background-image: url("/hero-background.svg");
+  background-image: url("/main-hero-background.svg");
   background-size: 100% 100%;
   margin-bottom: 0;
 }
