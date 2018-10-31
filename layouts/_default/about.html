@@ -70,7 +70,7 @@
           {{ if isset .Params "labels" }}
           <div class="about__labels">
             {{ range .Params.labels }}
-              <span class="labels {{ .color }}">{{ .value }}</span>
+              <span class="label {{ .color }}">{{ .value }}</span>
             {{ end }}
           </div>
           {{ end }}
