@@ -195,11 +195,24 @@ body {
   color: #fff;
 }
 
+/**
+* Section: Offerings
+*/
+.section.section--offerings img {
+  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.section.section--offerings h3 {
+  margin-bottom: 0.8rem !important;
+}
+
+/**
+* Section: Testimonials
+*/
 .section.testimonials {
   background-color: #F4F4F4;
 }
-
-
 
 /**
 * Button
