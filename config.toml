@@ -58,12 +58,12 @@ title = "GCn - GetCloudnative"
 
   [[params.testimonials]]
     quotee = "Chris Morgan"
-    position = "Director, Cloud Platforms Technical Marketing"
+    position = "Global Technical Director"
     company = "Red Hat"
     image = "/redhat-chris-morgan.jpg"
     logo = "/logo-redhat.svg"
     quote = "While I was at Red Hat and Martin was at Dynatrace, I had the good fortune to work with him as a partner for close to 3 years. During that time, Martin's responsiveness, attention to detail, technical and business awareness of the partnership details helped to revive and expand the work between our two companies. Regardless of the situation, I knew that Martin would be able to offer insight and guidance to move things forward."
-  
+
   [[params.testimonials]]
     quotee = "Peter Putz"
     position = "Operations Lead at Innovation Lab"

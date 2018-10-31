@@ -315,7 +315,6 @@ body {
   height: auto;
   text-indent: 0;
   background-color: transparent;
-  max-width: 8rem;
   margin-left: 1.5rem; 
   margin-right: 1.5rem;
 }
@@ -329,17 +328,16 @@ body {
 
 .carousel-indicators img {
   max-width: 100%;
-  opacity: 0.35;
+  opacity: 0.5;
 }
 
 .carousel-indicators li.active img {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .carousel-indicators li.active {
   background-color: transparent;
 }
-
 
 /**
 * Footer
