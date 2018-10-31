@@ -207,6 +207,16 @@ body {
   margin-bottom: 0.8rem !important;
 }
 
+@media (max-width: 767px) {
+  .section.section--offerings .row > div {
+    margin-bottom: 1.6rem;
+  }  
+
+  .section.section--offerings .row > div:last-child {
+    margin-bottom: 0;
+  }  
+}
+
 /**
 * Section: Testimonials
 */
