@@ -180,10 +180,10 @@ body {
   margin-bottom: 1rem;
 }
 
-
 .section-bg-secondary {
   background-color: #838CC7;
 }
+
 .section-bg-secondary * {
   color: #fff;
 }
@@ -193,6 +193,14 @@ body {
 .section-bg-secondary .display-3,
 .section-bg-secondary .display-4 {
   color: #fff;
+}
+
+/**
+* Section: Let's Walk the Talk
+*/
+.section--lets-walk-the-talk .lead {
+  font-size: 1.5rem;
+  margin-top: 2.2rem !important
 }
 
 /**
