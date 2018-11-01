@@ -383,15 +383,28 @@ body {
   margin-bottom: 0;
 }
 
+@media (min-width: 1200px) {
+  
+  .homepage__hero {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
 @media (min-width: 992px) {
   
   .homepage__hero {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 
 @media (max-width: 460px) {
+  
+  .homepage__hero {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
   
   .homepage__hero .h1 {
     font-size: 36px;
