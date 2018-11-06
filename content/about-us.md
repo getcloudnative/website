@@ -43,12 +43,12 @@ labels:
     color: "orange"
 ---
 
-Hello, I’m Martin.
+Hi, I'm Martin.
 
-I'm a technical and business strategist, hands-on architect and an enabler of teams.
+I'm an analytical and creative thinker with over a decade of diversified experience as a software engineer, architect, and strategist in both startup and enterprise environments. I strongly believe in the principles of *Lean Entrepreneurship*, *Agile Software Development*, and *Essentialism* to create products customers love. Throughout my career, I have enjoyed transforming complex technical challenges into viable solutions and creating easy-to-understand, yet compelling stories for audiences with a less technical background.
 
-In my career, I have worked for a series of highly innovative and successful leaders across a range of industries, such as Dynatrace, a long-term Gartner MQ for APM Leader, who proudly names 80 of the Fortune 100 companies as its customers.
+Having worked with a series of innovative and successful leaders across a range of industries including <a href="https://dynatrace.com">Dynatrace</a>, a <a href="https://www.dynatrace.com/gartner-magic-quadrant-application-performance-monitoring-suites/">long-term Gartner MQ for APM Leader</a>, who proudly names 80 of the Fortune 100 companies as its customers, has taught me a couple of game-changing lessons — and I consider "focusing on outcomes" paired with the tenet of "starting out simple and learning what you actually need" through the relentless pursuit of continuous learning and improvement among the most important ones.
 
-Having worked as Software Engineer, Architect, Technology Strategist and Lead over the last  has taught me a couple of game-changing lessons — and I consider "focusing on outcomes" paired with the tenet of "starting out simple and learning what you actually need" through the relentless pursuit of continuous learning and improvement among the most important ones.
+As a founder at <a href="https://getcloudnative.io">GetCloudnative</a>, I personally support our clients in turning these learnings into practice to create new and better processes: from identifying and solving the right problems through innovative thinking and acting, backed by appropriate, modern technology, to empowering teams to confidently navigating the turbulence of change.
 
-As a founder at GetCloudnative, I enjoy personally supporting our clients in turning these learnings into practice to create better processes, products, and services by maximizing the benefits of modern, cloud-native technology.
+For more information on my professional experience, education, training, publications, and open source work, please have a look at my social profiles above. If you want to get in touch, please send a message to <a href="mailto:metmajer@getcloudnative.io">metmajer@getcloudnative.io</a>.
