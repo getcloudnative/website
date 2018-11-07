@@ -282,73 +282,7 @@ body {
   margin-top: 1em;
 }
 
-/**
-* Page: Homepage
-*/
-.homepage__hero {
-  background-color: #1C67C0;
-  color: #fff;
-  border-radius: 0;
-  background-image: url("/main-hero-background.svg");
-  background-size: 100% 100%;
-  margin-bottom: 0;
-}
-
-@media (min-width: 1200px) {
-  
-  .homepage__hero {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-}
-
-@media (min-width: 992px) {
-  
-  .homepage__hero {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-}
-
-@media (max-width: 460px) {
-  
-  .homepage__hero {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-  
-  .homepage__hero .h1 {
-    font-size: 36px;
-  }
-}
-
-.homepage__hero .quote {
-  margin-top: 2.5rem;
-}
-.homepage__hero .quote p,
-.homepage__hero .quote .lead {
-  font-weight: 300;
-  font-size: 24px;
-  font-style: italic;
-  color: rgba(255, 255, 255, 0.8);
-}
-.homepage__hero .quote hr {
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 70%;
-  margin-right: auto;
-  margin-left: 0;
-}
-.homepage__hero .quote p.lead {
-  font-style: italic;
-  padding-bottom: 2rem;
-}
-
-.homepage__hero .quote__quotee,
-.homepage__hero .quote__quoteeposition {
-  font-size: 16px;
-  font-weight: 300;
-  font-style: normal;
-}
+@import 'hero-main';
 
 /**
  * Page: About us
