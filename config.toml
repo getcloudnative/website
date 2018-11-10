@@ -6,7 +6,7 @@ title = "GCn - GetCloudnative"
   [[menu.main]]
     identifier = "about us"
     name = "About Us"
-    url = "https://www.linkedin.com/company/getcloudnative"
+    url = "/about-us/"
   
   [[menu.main]]
     identifier = "blog"
@@ -53,29 +53,29 @@ title = "GCn - GetCloudnative"
     url = ""
 
 [params]
-  description = "At GetCloudnative, we personally help our clients in bringing new and better products and services to the market quicker, by combining modern, cloud-native technology with Agile and Lean thinking and acting. We're Strategists, hands-on Executors, and Enablers of Teams. Ready to kick-start innovation and walk the talk together?"
-  keywords = "Strategy, Architecture, Execution, Enablement, Agile, Lean, Agile Coaching, Continuous Delivery, DevOps, Cloud, Containers, Serverless, Amazon Web Services, AWS, Ansible, Azure, Docker, Jenkins, Kubernetes, OpenShift, Packer, Terraform"
+  description = "At GetCloudnative, we personally support our clients in their journey to embracing their digital life and bringing new and better products and services to the market quicker: from identifying and solving the right problems through innovative thinking and acting, backed by appropriate, modern technology, to empowering teams to confidently navigating the turbulence of change."
+  keywords = "Strategy, Execution, Architecture, Enablement, Change Enablement, Empowerment, Agile, Agile Coaching, Innovation, Lean, Continuous Delivery, DevOps, Cloud, Containers, Serverless, Amazon Web Services, AWS, Ansible, Azure, Docker, Jenkins, Kubernetes, OpenShift, Packer, Terraform"
 
   [[params.testimonials]]
     quotee = "Chris Morgan"
-    position = "Director, Cloud Platforms Technical Marketing"
-    company = "Redhat"
-    image = "/chris-morgan.jpg"
-    logo = "/redhat-logo.svg"
+    position = "Global Technical Director"
+    company = "Red Hat"
+    image = "/redhat-chris-morgan.jpg"
+    logo = "/logo-redhat.svg"
     quote = "While I was at Red Hat and Martin was at Dynatrace, I had the good fortune to work with him as a partner for close to 3 years. During that time, Martin's responsiveness, attention to detail, technical and business awareness of the partnership details helped to revive and expand the work between our two companies. Regardless of the situation, I knew that Martin would be able to offer insight and guidance to move things forward."
-  
+
   [[params.testimonials]]
     quotee = "Peter Putz"
     position = "Operations Lead at Innovation Lab"
     company = "Dynatrace"
-    image = "/peter-putz.jpg"
-    logo = "/dynatrace-logo.svg"
+    image = "/dynatrace-peter-putz.jpg"
+    logo = "/logo-dynatrace.svg"
     quote = "While working as a Senior Technology Strategist with the Dynatrace Innovation Lab Martin distinguished himself as a technical visionary and business strategist. As an outstanding expert in CI/CD and cloud technologies, he was at the forefront of scouting, assessing and adopting rapidly emerging technologies to advance the Dynatrace industry-leading monitoring solution. He was key in establishing strategic alliances with global cloud providers and successfully lead go-to-market efforts by bringing together cross-functional and globally distributed teams. His diligence and keen sense of technological advancements made him a well-respected player within the cloud community."
   
   [[params.testimonials]]
     quotee = "Günter Schramm"
     position = "Director Technical Customer Support"
     company = "Dynatrace"
-    image = "/guenter-schramm.jpg"
-    logo = "/dynatrace-logo.svg"
+    image = "/dynatrace-guenter-schramm.jpg"
+    logo = "/logo-dynatrace.svg"
     quote = "I had the pleasure to work with Martin during his time at Dynatrace. My team regularly consulted with him on business-relevant cloud-native and microservices technology, such as Red Hat OpenShift and Kubernetes. Together with Martin, we've developed a training program to help our globally distributed teams embrace these emerging technologies -- and knowing how much professionalism Martin puts into his work, it comes as no surprise to me that his training concepts and material have remained in high demand ever since. Martin has this rare ability to understand complex technology in all its depth, and explain it to others in a simple and understandable way. It's that combination that makes him an extraordinary enabler and technology evangelist."

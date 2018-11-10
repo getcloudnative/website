@@ -3,7 +3,7 @@
   <img src="{{ .Params.logo }}" alt="" class="quote__logo mb-4">
   {{end}}
 
-  <p class="quote__text lead mb-4">&ldquo;{{ trim .Inner " \n" }}&rdquo;</p>
+  <p class="quote__text lead">&ldquo;{{ trim .Inner " \n" }}&rdquo;</p>
   <hr>
   {{if isset .Params "image" }}
   <img src="{{ .Params.image }}" alt="{{ .Params.quotee }} image" class="mt-3 quote__image">

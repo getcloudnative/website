@@ -1,0 +1,73 @@
+.navbar {
+  height: 4.5rem;
+
+  .navbar-brand {
+    width: auto;
+
+    @media (min-width: 768px) {
+      position: absolute;
+    }
+
+    img {
+      width: 3rem;
+      height: 3rem;
+      margin-right: 1rem;
+    }
+
+    span {
+      cursor: default;
+      color: #3F4C56;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }    
+  }
+
+  .navbar-collapse {
+    z-index: 999;
+  }
+
+  .navbar--main {
+    .nav-item {
+      margin-left: 0.3em;
+      margin-right: 0.3em;
+
+      @media (min-width: 992px) {
+        margin-left: 0.6em;
+        margin-right: 0.6em;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .navbar--social {
+    padding-right: 0;
+    margin-top: -0.1rem;
+
+    .nav-item {
+      margin-left: 0.2em;
+      margin-right: 0.2em;
+
+      @media (min-width: 992px) {
+        margin-left: 0.4em;
+        margin-right: 0.4em;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .nav-item {
+    white-space: nowrap;
+  }
+
+  .nav-link {
+    svg * {
+      fill: currentColor;
+    }
+  }
+}

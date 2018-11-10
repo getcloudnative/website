@@ -1,0 +1,124 @@
+
+{{ define "content" }}
+<div class="jumbotron about__hero" style="background-image: url({{ .Params.headerimage }})">
+  <div class="container">
+  </div>
+</div>
+
+
+<div class="about--wrapper">
+  <div class="section container section--about">
+    <div class="row">
+      <div class="col-12 col-md-3 text-center">
+        <img class="about__person__photo rounded-circle" src="{{ .Params.person.photo }}" alt="Photo of {{ .Params.person.name }}">
+  
+        <ul class="social__list">
+
+          {{ if isset .Params.person "linkedin" }}
+            <li class="social__list__item">
+              <a class="social__list__link" href="{{ .Params.person.linkedin }}">
+                <img class="social__list__image" src="/logo-linkedin.svg" alt="LinkedIn profile of {{ .Params.person.name }}">
+              </a>
+            </li>
+          {{ end }}
+
+          {{ if isset .Params.person "github" }}
+            <li class="social__list__item">
+              <a class="social__list__link" href="{{ .Params.person.github }}">
+                <img class="social__list__image" src="/logo-github.svg" alt="Github profile of {{ .Params.person.name }}">
+              </a>
+            </li>
+          {{ end }}
+  
+          {{ if isset .Params.person "twitter" }}
+            <li class="social__list__item">
+              <a class="social__list__link" href="{{ .Params.person.twitter }}">
+                <img class="social__list__image" src="/logo-twitter.svg" alt="twitter profile of {{ .Params.person.name }}">
+              </a>
+            </li>
+          {{ end }}
+  
+          {{ if isset .Params.person "speakerdeck" }}
+            <li class="social__list__item">
+              <a class="social__list__link" href="{{ .Params.person.speakerdeck }}">
+                <img class="social__list__image" src="/logo-speakerdeck.svg" alt="speakerdeck profile of {{ .Params.person.name }}">
+              </a>
+            </li>
+          {{ end }}
+  
+          {{ if isset .Params.person "slideshare" }}
+            <li class="social__list__item">
+              <a class="social__list__link" href="{{ .Params.person.slideshare }}">
+                <img class="social__list__image" src="/logo-slideshare.svg" alt="slideshare profile of {{ .Params.person.name }}">
+              </a>
+            </li>
+          {{ end }}
+  
+        </ul>
+      </div>
+      <div class="col-12 col-md-9 mt-5">
+        <h1 class="about__person__name h2 text-center">{{ .Params.person.name }}</h1>
+        <p class="about__person__position lead text-center">{{ .Params.person.position }}</p>
+  
+        <hr class="about__person__separator" />
+  
+        <div class="container about__post__container">
+          <div class="post">
+            {{ .Content }}
+          </div>
+          
+          {{ if isset .Params "labels" }}
+          <div class="about__labels">
+            {{ range .Params.labels }}
+              <span class="label {{ .color }}">{{ .value }}</span>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+  
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section testimonials" style="padding-top: 1rem; padding-bottom: 5rem">
+  <div class="container">
+    <h2 class="display-4 text-center">What People Say</h2>
+    <p class="text-center lead" style="margin-bottom: 2rem">
+      Satisfying our clients is our top priority.<br>
+      Here is what industry leaders have to say about us.
+    </p>
+
+    <div id="testimonials" class="testimonialcarousel mt-3 carousel slide" data-ride="">
+      <ol class="carousel-indicators mb-3">
+        {{ range $index, $e := .Site.Params.testimonials }}
+          <li data-target="#testimonials" data-slide-to="{{ $index }}" class="{{ if (eq $index 0) }}active{{end}}" >
+            <img src="{{ .image }}" alt="{{ .quotee }}" class="mt-3 quote__image">
+            <p>
+              <span class="quote__quotee">{{ .quotee }}</span><span class="quote__quoteeposition">{{ .position }}<br>at {{ .company }}</span>
+            </p>
+          </li>
+        {{end}}
+      </ol>
+      
+      <div class="carousel-inner">
+        {{ range $index, $e := .Site.Params.testimonials }}
+        <div class="carousel-item {{ if (eq $index 0) }}active{{end}}">
+          <blockquote class="quote">
+            <p class="quote__text lead mb-4">&ldquo;{{ trim .quote " \n" }}&rdquo;</p>
+          </blockquote>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <p class="mt-5 text-center">
+      <a href="/projects/">See our projects ></a>
+    </p>
+  </div>
+</div>
+
+{{ end }}
+
+{{ define "footer" }}
+{{ end }}
