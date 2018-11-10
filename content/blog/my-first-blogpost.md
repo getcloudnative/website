@@ -2,7 +2,7 @@
 title: "My First Blogpost"
 description: "Metadescription of the blogpost"
 date: 2018-09-15T10:45:27+02:00
-draft: true
+draft: false
 ---
 
 ## Project Omega
@@ -20,3 +20,8 @@ Turpis egestas pretium aenean pharetra magna ac. Libero volutpat sed cras ornare
 {{< figure src="http://via.placeholder.com/640x360" caption="Placeholder image" >}}
 
 Interdum posuere lorem ipsum dolor sit amet consectetur. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Lacus laoreet non curabitur gravida arcu ac tortor. Nulla facilisi etiam dignissim diam. Odio facilisis mauris sit amet massa vitae tortor condimentum. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Nulla aliquet enim tortor at auctor urna nunc. Egestas sed tempus urna et pharetra pharetra massa massa. Non nisi est sit amet. Urna porttitor rhoncus dolor purus non enim praesent elementum. Nibh nisl condimentum id venenatis. Semper risus in hendrerit gravida rutrum quisque non. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor consequat id porta nibh venenatis cras sed felis.
+
+
+## What people say
+
+{{< testimonials >}}
