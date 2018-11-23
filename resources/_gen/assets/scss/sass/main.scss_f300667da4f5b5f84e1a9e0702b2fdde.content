@@ -114,6 +114,11 @@
   @media (min-width: 768px) {
     .labels {
       margin-top: 4rem; } }
+  .labels > div {
+    display: inline; }
+    @media (min-width: 768px) {
+      .labels > div {
+        display: block; } }
 
 .label {
   border-radius: 15px;

@@ -63,16 +63,27 @@
         <div class="post">
           {{ .Content }}
         </div>
-        
+
         {{ if isset .Params "labels" }}
         <div class="labels about__labels text-center">
-          {{ range .Params.labels }}
-            <span class="label {{ .color }}">{{ .value }}</span>
-          {{ end }}
-        </div>
-        {{ end }}
+          <div>
+            {{ range where .Params.Labels "category" "leadership" }}
+            <span class="label purple">{{ .value }}</span>
+            {{ end }}
+          </div>
+          <div>
+            {{ range where .Params.Labels "category" "expertise" }}
+            <span class="label blue">{{ .value }}</span>
+            {{ end }}
+          </div>
+          <div>
+              {{ range where .Params.Labels "category" "technology" }}
+              <span class="label orange">{{ .value }}</span>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}        
       </div>
-
     </div>
   </div>
 </div>

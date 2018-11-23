@@ -7,7 +7,15 @@
 
   @media (min-width: 768px) {
     margin-top: 4rem;
-  } 
+  }
+
+  > div {
+    display: inline;
+
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
 }
 
 .label {
