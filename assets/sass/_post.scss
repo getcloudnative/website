@@ -1,0 +1,27 @@
+/**
+* Post
+*/
+
+.post {
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6,
+.post p,
+.post ul,
+.post ol,
+.post blockquote {
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+.post em {
+  font-style: italic;
+}

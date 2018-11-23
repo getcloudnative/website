@@ -1,0 +1,38 @@
+/**
+* Labels
+*/
+
+.labels {
+  margin-top: 3rem;
+
+  @media (min-width: 768px) {
+    margin-top: 4rem;
+  } 
+}
+
+.label {
+  border-radius: 15px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 0.8);
+  white-space: nowrap;
+  margin-right: 0.6rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.8em;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+
+  &.blue {
+    background-color: #3994F0;
+  }
+
+  &.purple {
+    background-color: #C6A7FA;
+  }
+
+  &.orange {
+    background-color: #F6C86C;
+  }
+}

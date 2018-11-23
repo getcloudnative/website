@@ -13,42 +13,38 @@ person:
 labels:
   - value: "Strategist"
     color: "purple"
-  - value: "Architect"
+  - value: "Hands-On Architect"
     color: "purple"
-  - value: "Developer"
+  - value: "Enabler of Teams"
     color: "purple"
-  - value: "Author"
-    color: "purple"
-  - value: "Coach"
-    color: "purple"
-  - value: "Mentor"
-    color: "purple"
-  - value: "Speaker"
-    color: "purple"
-  - value: "Cloud"
+  - value: "Cloud Computing"
     color: "blue"
-  - value: "CI/CD"
+  - value: "Continuous Delivery"
     color: "blue"
   - value: "DevOps"
     color: "blue"
-  - value: "AWS"
-    color: "orange"
-  - value: "Azure"
-    color: "orange"
-  - value: "Jenkins"
-    color: "orange"
-  - value: "Kubernetes"
-    color: "orange"
-  - value: "Terraform"
-    color: "orange"
+#  - value: "Ansible"
+#    color: "orange"
+#  - value: "Amazon Web Services"
+#    color: "orange"
+#  - value: "Microsoft Azure"
+#    color: "orange"
+#  - value: "Jenkins"
+#    color: "orange"
+#  - value: "Kubernetes"
+#    color: "orange"
+#  - value: "Terraform"
+#    color: "orange"
 ---
 
 Hi, I'm Martin.
 
-I'm an analytical and creative thinker with over a decade of diversified experience as a software engineer, architect, and strategist in both startup and enterprise environments. I strongly believe in the principles of *Lean Entrepreneurship*, *Agile Software Development*, and *Essentialism* to create products customers love. Throughout my career, I have enjoyed transforming complex technical challenges into viable solutions and creating easy-to-understand, yet compelling stories for audiences with a less technical background.
+I'm an analytical and creative thinker with over a decade of diversified experience as a software engineer, architect, and strategist in both startup and enterprise environments. 
 
-Having worked with a series of innovative and successful leaders across a range of industries including <a href="https://dynatrace.com">Dynatrace</a>, a <a href="https://www.dynatrace.com/gartner-magic-quadrant-application-performance-monitoring-suites/">long-term Gartner MQ for APM Leader</a>, who proudly names 80 of the Fortune 100 companies as its customers, has taught me a couple of game-changing lessons — and I consider "focusing on outcomes" paired with the tenet of "starting out simple and learning what you actually need" through the relentless pursuit of continuous learning and improvement among the most important ones.
+I strongly believe in the principles of *Lean Entrepreneurship*, *Agile Software Development*, and *Essentialism* to create products customers love. Throughout my career, I have enjoyed transforming complex technical challenges into viable solutions and creating easy-to-understand, yet compelling stories for audiences with a less technical background.
+
+Having worked with a series of innovative and successful leaders across a range of industries including <a href="https://dynatrace.com">Dynatrace</a>, a <a href="https://www.dynatrace.com/gartner-magic-quadrant-application-performance-monitoring-suites/">long-term Gartner MQ for APM Leader</a>, who names 70 of the Fortune 100 companies as its customers, has taught me a couple of game-changing lessons — and I consider <em>focusing on outcomes</em> paired with the tenet of <em>starting out simple and learning what you actually need</em> through the relentless pursuit of continuous learning and improvement among the most important ones.
 
 As a founder at <a href="https://getcloudnative.io">GetCloudnative</a>, I personally support our clients in turning these learnings into practice to create new and better processes: from identifying and solving the right problems through innovative thinking and acting, backed by appropriate, modern technology, to empowering teams to confidently navigating the turbulence of change.
 
-For more information on my professional experience, education, training, publications, and open source work, please have a look at my social profiles above. If you want to get in touch, please send a message to <a href="mailto:metmajer@getcloudnative.io">metmajer@getcloudnative.io</a>.
+For more information on my professional experience, education, training, publications, and open source work, please have a look at my social profiles above. Please drop me a message at <a href="mailto:metmajer@getcloudnative.io">metmajer@getcloudnative.io</a> if you want to get in touch.

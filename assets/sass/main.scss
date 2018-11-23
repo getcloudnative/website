@@ -1,3 +1,9 @@
+@import 'hero-main';
+@import 'about-us';
+@import 'labels';
+@import 'navigation';
+@import 'post';
+
 /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -61,8 +67,6 @@ body {
   font-size: 1.35rem;
 }
 
-@import 'navigation';
-
 /**
 * Section
 */
@@ -111,7 +115,7 @@ body {
 */
 .section--lets-walk-the-talk .lead {
   font-size: 1.5rem;
-  margin-top: 2rem !important
+  margin-top: 2rem !important;
 }
 
 /**
@@ -280,171 +284,4 @@ body {
 
 .post p + p {
   margin-top: 1em;
-}
-
-@import 'hero-main';
-
-/**
- * Page: About us
- */
-
-.about__hero {
-  min-height: 40vh;
-  background-position: center;
-  background-size: cover;
-  border-radius: 0;
-  margin: 0;
-}
-
-.about--wrapper {
-  background-color: #F4F4F4;
-}
-
-.section--about {
-  transform: translateY(-4rem);
-  background-color: #fff;
-  border-radius: 5px;
-  padding-top: 0;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.11) 1px 2px 3px;
-}
-
-@media (min-width: 768px) {
-  
-  .about__hero {
-    min-height: 75vh;
-  }
-}
-
-.about__person__photo {
-  max-width: 180px;
-  margin-top: -1.5rem;
-}
-
-.about__person__name,
-.about__person__position {
-  color: #000;
-}
-
-.about__person__separator {
-  max-width: 70%;
-  margin: 1.8rem auto 3rem;
-  border-top: 2px solid #E1E8EE;
-  opacity: 0.5;
-}
-
-@media (min-width: 992px) {
-
-  .about__post__container {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-}
-
-.social__list {
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.social__list__item {
-  display: inline-block;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.social__list__image {
-  min-width: 20px;
-}
-
-@media (min-width: 768px) {
-
-  .social__list {
-    margin-top: 2.6rem; 
-  }
-
-  .social__list__item {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
-  .social__list__item + .social__list__item {
-    margin-top: 1.2rem;
-  }
-
-  .social__list__image {
-    min-width: 28px;
-  }
-} 
-
-.social__list__item {
-  opacity: 0.35;
-  transition: opacity 250ms ease-in-out;
-}
-
-.social__list__item:hover {
-  opacity: 0.5;
-}
-
-
-
-/**
- * labels
- */
- 
-.about__labels {
-  margin-top: 3rem;
-}
-
-.label {
-  border-radius: 15px;
-  display: inline-block;
-  height: 30px;
-  line-height: 30px;
-  vertical-align: middle;
-  color: rgba(255, 255, 255, 0.8);
-  white-space: nowrap;
-  margin-right: 0.6rem;
-  margin-bottom: 0.8rem;
-  font-size: 0.8em;
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
-}
-
-.label.blue {
-  background-color: #3994F0;
-}
-
-.label.purple {
-  background-color: #C6A7FA;
-}
-
-.label.orange {
-  background-color: #F6C86C;
-}
-
-/**
-* Page: Single / Blogpost
-*/
-
-.post {
-  max-width: 75ch;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.post h1,
-.post h2,
-.post h3,
-.post h4,
-.post h5,
-.post h6,
-.post p,
-.post ul,
-.post ol,
-.post blockquote {
-  margin-bottom: 1em;
-  line-height: 1.5;
 }
