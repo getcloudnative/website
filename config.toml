@@ -13,10 +13,10 @@ title = "GCn - GetCloudnative"
     name = "Blog"
     url = "https://medium.com/getcloudnative"
     
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projecs/"
+#  [[menu.main]]
+#    identifier = "projects"
+#    name = "Projects"
+#    url = "/projecs/"
 
   [[menu.socials]]
     identifier = "github"
